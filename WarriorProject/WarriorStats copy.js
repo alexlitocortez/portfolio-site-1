@@ -294,10 +294,6 @@ function WarriorStats() {
     )
 }
 
-
-const domContainer = document.querySelector('#like_button_container');
-
-
 export default WarriorStats
 
 
