@@ -4,53 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="WarriorProject/Warriors copy.css" type="text/css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/Users/l/Desktop/html5up-miniport/WarriorProject/Warriors copy.css" />
+    <title>Golden State Warriors</title>
 </head>
 <body>
-    <div id="root">
-        
-    </div>
+    <h2>Steps To Add React to a Website </h2> 
+    <div id="some_random_id">
+
+    </div> 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
 
-    <script type="text/babel">    
-
+    <script type="text/babel">
 
 
         class Greeting extends React.Component {
             render() {
                 return (
-                    <div>
-                        <button onClick={() => setStatsForCurry()} class='button' id='steph' type='button'>
-                            Stephen Curry
-                        </button>
-                        <button onClick={() => setStatsForOubre()} 
-                                id='kelly' 
-                                type='button'>
-                        Kelly Oubre</button>
-                        <button onClick={() => setStatsForWiggins()} 
-                                id='andrew' 
-                                type='button'>
-                        Andrew Wiggins</button>
-                        <button onClick={() => setStatsForGreen()} 
-                                id='draymond' 
-                                type='button'>
-                        Draymond Green</button>
-                        <button onClick={() => setStatsForWiseman()} 
-                                id='james' 
-                                type='button'>
-                        James Wiseman</button>
-                    </div>
+                <div>
+                    <button className='button' id='steph'>
+                        Stephen Curry
+                    </button>
+                    <button className='button' id='kelly'>
+                        Kelly Oubre
+                    </button>
+                    <button className='button' id='andrew'>
+                        Andrew Wiggins
+                    </button>
+                    <button className='button' id='draymond'>
+                        Stephen Curry
+                    </button>
+                    <button className='button' id='james'>
+                        Stephen Curry
+                    </button>
+                </div>
+
                 );
             }
         }
+        
         ReactDOM.render(
             <Greeting />,
-            document.getElementById('root')
+            document.getElementById('some_random_id')
         );
+        
     </script>
+
 </body>
 </html>
+
